@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="94e4a330-0f36-40da-a898-ea02eae3da47" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/churchlot_with_cars.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../data/churchlot_with_cars.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/grasshopper_calibration.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../data/grasshopper_calibration.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/wp_yaw_const.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../data/wp_yaw_const.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/launch/site.launch" beforeDir="false" afterPath="$PROJECT_DIR$/launch/site.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/camera_info_publisher/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/camera_info_publisher/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/camera_info_publisher/launch/camera_info_publisher.launch" beforeDir="false" afterPath="$PROJECT_DIR$/src/camera_info_publisher/launch/camera_info_publisher.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/camera_info_publisher/package.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/camera_info_publisher/package.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styx/data/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/src/styx/data/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tl_detector/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/tl_detector/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tl_detector/launch/tl_detector.launch" beforeDir="false" afterPath="$PROJECT_DIR$/src/tl_detector/launch/tl_detector.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tl_detector/launch/tl_detector_site.launch" beforeDir="false" afterPath="$PROJECT_DIR$/src/tl_detector/launch/tl_detector_site.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tl_detector/light_classification/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tl_detector/light_classification/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tl_detector/light_classification/tl_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tl_detector/light_classification/tl_classifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tl_detector/package.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/tl_detector/package.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tl_detector/sim_traffic_light_config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/tl_detector/sim_traffic_light_config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tl_detector/site_traffic_light_config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/tl_detector/site_traffic_light_config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/twist_controller/dbw_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/twist_controller/dbw_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/twist_controller/twist_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/twist_controller/twist_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/twist_controller/yaw_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/twist_controller/yaw_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/waypoint_follower/src/pure_pursuit_core.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/waypoint_follower/src/pure_pursuit_core.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/waypoint_loader/launch/waypoint_loader_site.launch" beforeDir="false" afterPath="$PROJECT_DIR$/src/waypoint_loader/launch/waypoint_loader_site.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/waypoint_updater/waypoint_updater.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/waypoint_updater/waypoint_updater.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="765938238">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cpp" value="1" />
+          <entry key="py" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C++" value="1" />
+          <entry key="Python" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cpp" value="4" />
+          <entry key="py" value="573" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C++" value="4" />
+          <entry key="Python" value="573" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/twist_controller/twist_controller.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="35" selection-end-line="67" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/waypoint_follower/src/pure_pursuit_core.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="238" column="23" selection-start-line="238" selection-start-column="23" selection-end-line="238" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/twist_controller/dbw_node.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="71">
+              <caret line="78" column="25" lean-forward="true" selection-end-line="138" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/twist_controller/yaw_controller.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/waypoint_updater/waypoint_updater.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="148" selection-end-column="62" />
+              <folding>
+                <element signature="e#23#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>curr_ang_vel</find>
+      <find>following</find>
+      <find>MAX_DECELERATION</find>
+      <find>`</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/waypoint_follower/src/pure_pursuit_core.cpp" />
+        <option value="$PROJECT_DIR$/src/waypoint_updater/waypoint_updater.py" />
+        <option value="$PROJECT_DIR$/src/twist_controller/yaw_controller.py" />
+        <option value="$PROJECT_DIR$/src/twist_controller/dbw_node.py" />
+        <option value="$PROJECT_DIR$/src/twist_controller/twist_controller.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1037" />
+    <option name="y" value="64" />
+    <option name="width" value="1394" />
+    <option name="height" value="1004" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ros" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ros" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ros" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ros" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ros" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ros" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="twist_controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ros" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ros" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="waypoint_follower" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ros" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ros" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="waypoint_follower" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ros" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ros" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="waypoint_updater" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94e4a330-0f36-40da-a898-ea02eae3da47" name="Default Changelist" comment="" />
+      <created>1536591234446</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536591234446</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24235807" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/waypoint_updater/waypoint_updater.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="148" selection-end-column="62" />
+          <folding>
+            <element signature="e#23#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/twist_controller/yaw_controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/twist_controller/dbw_node.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="78" column="25" lean-forward="true" selection-end-line="138" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/waypoint_follower/src/pure_pursuit_core.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="238" column="23" selection-start-line="238" selection-start-column="23" selection-end-line="238" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/twist_controller/twist_controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="35" selection-end-line="67" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
