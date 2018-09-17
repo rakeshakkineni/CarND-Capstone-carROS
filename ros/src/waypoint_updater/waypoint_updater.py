@@ -19,9 +19,9 @@ current status in `/vehicle/traffic_lights` message. You can use this message to
 as well as to verify your TL classifier.
 '''
 
-LOOKAHEAD_WPS = 40  # Number of waypoints we will publish. You can change this number
+LOOKAHEAD_WPS = 20  # Number of waypoints we will publish. You can change this number
 MAX_DECEL = .5
-
+MAX_VEH_SPEED = 5.4 # Meter Per Second
 
 class WaypointUpdater(object):
     def __init__(self):
@@ -40,7 +40,7 @@ class WaypointUpdater(object):
         self.base_waypoints = None
         self.waypoints_2d = None
         self.waypoint_tree = None
-
+        self.stop_traffic_signal = False
         self.loop()
 
 
@@ -76,10 +76,29 @@ class WaypointUpdater(object):
     def publish_waypoints(self,closest_idx):
         lane = Lane()
         base_waypoints = self.base_waypoints.waypoints[closest_idx:(closest_idx+LOOKAHEAD_WPS)]
-        rospy.loginfo("stop waypoint idx %s\n", self.stopline_wp_idx)
+        #rospy.loginfo("stop waypoint idx %s\n", self.stopline_wp_idx)
         if self.stopline_wp_idx == -1 or (self.stopline_wp_idx >= (closest_idx+LOOKAHEAD_WPS)):
-            lane.waypoints = base_waypoints
+            updated_waypoints = []
+
+            if(self.stop_traffic_signal == True):
+                delta = MAX_VEH_SPEED/LOOKAHEAD_WPS
+                for i, wp in enumerate(base_waypoints):
+                    p = Waypoint()
+                    p.pose = wp.pose
+                    p.twist.twist.linear.x = min(MAX_VEH_SPEED, i*delta+2)
+                    # rospy.loginfo("Decelerated Original: %s After: %s", wp.twist.twist.linear.x, p.twist.twist.linear.x)
+                    updated_waypoints.append(p)
+                self.stop_traffic_signal = False
+            else:
+                for i, wp in enumerate(base_waypoints):
+                    p = Waypoint()
+                    p.pose = wp.pose
+                    p.twist.twist.linear.x = min(MAX_VEH_SPEED, wp.twist.twist.linear.x)
+                    # rospy.loginfo("Decelerated Original: %s After: %s", wp.twist.twist.linear.x, p.twist.twist.linear.x)
+                    updated_waypoints.append(p)
+            lane.waypoints = updated_waypoints
         else:
+            self.stop_traffic_signal = True
             lane.waypoints = self.decelerate_waypoints(base_waypoints, closest_idx)
 
         self.final_waypoints_pub.publish(lane)
