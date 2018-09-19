@@ -142,7 +142,7 @@ class TLDetector(object):
             return TrafficLight.UNKNOWN
 
         cv_image = self.bridge.imgmsg_to_cv2(self.camera_image, "bgr8")
-        rospy.loginfo("Actual State %s", light.state)
+        #rospy.loginfo("Actual State %s", light.state)
         # Get classification
         return self.light_classifier.get_classification(cv_image)
 
